@@ -1,7 +1,13 @@
 *{
-    margin;
-    padding: ;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
 
+/* inizio aspetto */
 
+.page-header {
+    padding: 10px 30px;
+    border-bottom: 3px solid black;
+    margin-bottom: 10px;
 }
