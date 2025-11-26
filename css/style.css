@@ -1,13 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* inizio aspetto */
+/* Layout iniziale */
 
 .page-header {
     padding: 10px 30px;
     border-bottom: 3px solid black;
     margin-bottom: 10px;
+}
+
+/* Cornice del contenuto */
+.card {
+    width: 400px;
+    margin: 16px auto;
+    border: 3px solid black;
+    padding: 16px;
 }
