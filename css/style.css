@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+/* Corpo della pagina */
+
+section {
+    padding: 16px 0;
+}
+
 /* Layout iniziale */
 
 .page-header {
@@ -13,9 +19,19 @@
 }
 
 /* Cornice del contenuto */
+
 .card {
     width: 400px;
-    margin: 16px auto;
+    margin: 0 auto;
     border: 3px solid black;
     padding: 16px;
+}
+
+/* Chiusura della pagina */
+
+.page-footer {
+    padding: 10px 30px;
+    border-top: 3px solid black;
+    margin-top: 10px;
+    
 }
